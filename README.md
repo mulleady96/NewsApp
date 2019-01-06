@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Using Now Server Deployment
+
+Install Now by running: npm install -g now. This will download the Now CLI.
+
+Run the following command to build the angular project for production: 'ng build --c=production --base-href /'. This will create a dist folder. 
+Traverse into the dist folder and step into the project folder, in my case it was called news-app.
+Inside here run the command 'now'. 
+This will upload all your files in the dist folder to the server and the CLI should produce a URL for you to access your app.
+
