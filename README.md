@@ -33,5 +33,5 @@ Install Now by running: npm install -g now. This will download the Now CLI.
 Run the following command to build the angular project for production: 'ng build --c=production --base-href /'. This will create a dist folder. 
 Traverse into the dist folder and step into the project folder, in my case it was called news-app.
 Inside here run the command 'now'. 
-This will upload all your files in the dist folder to the server and the CLI should produce a URL for you to access your app.
+This will (hopefully) upload all your files contained within the dist folder to the server and the CLI should produce a URL for you to access your app. Available for everyone to enjoy!
 
